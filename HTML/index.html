@@ -12,26 +12,28 @@
     </head>
     <body>
         <div>
-            <div class='container-fluid' style='height: 100vh; background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg"); background-repeat: none;'>
-                <div style="display: flex; align-items: center; flex-direction: column; align-content: center; padding-top: 15%">
-                    <div style="align-content: space-around; margin-bottom: 2%;">
-                        <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/logo/logo.png" style="padding-bottom: 2.5%;">
-                    </div>
-                    <div style="justify-content: center; align-self:center">
-                        <h1 style="color: white; text-align: center; align-self :center">WELCOME <br>TO DELANI STUDIO</h1>
-                        <p style="color: white; text-align: center">
-                            AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT
-                        </p>
-                    </div>  
-                    <div style="margin-top: 10%;">
-                        <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/mouse_click.png">
+            <div class='container-fluid'> 
+                <div class="cover-image">
+                    <div class="cover-parent">
+                        <div class="logo">
+                            <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/logo/logo.png">
+                        </div>
+                        <div class='welcome-header'>
+                            <h1 class='heading-1'>WELCOME <br>TO DELANI STUDIO</h1>
+                            <p style="color: white; text-align: center">
+                                AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT
+                            </p>
+                        </div>  
+                        <div style="margin-top: 10%;">
+                            <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/mouse_click.png">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div style="padding: 2.5%">
-            <h2 style="text-align: center">ABOUT US</h2>
-            <p style="text-align: center">When you work with us, you are part of a team of committed collaborators. All aspects of our software development process
+            <h2 class='heading-2'>ABOUT US</h2>
+            <p class="heading-2">When you work with us, you are part of a team of committed collaborators. All aspects of our software development process
                 are intergrated, interactive and agile. <br>
                 Our approach unifies design, development and product management to create exceptional products.<br>
                 We start each project by understanding your business goals, the user's needs and the products requirements<br>
@@ -39,9 +41,9 @@
             </p>
         </div>
         <div style="background-image: url('https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/s_image.jpg'); background-repeat: none;">
-            <div style="padding: 10%">
-                <h2 style="text-align: center; color: white;">SERVICES</h2>
-                <p style="text-align: center; color: white;">
+            <div style="padding: 7%">
+                <h2 class="heading-2" style="color: white;">SERVICES</h2>
+                <p class="heading-2" style="color: white;">
                     Before we sign a contractor write a line of code our team will spend the necessary time needed to understand your product vision <br>
                     The outcome of this scoping session is a proposal or high-level statement of work.<br>
                     Based on your requirements, we can provide a complete offering or just the pieces you need.
@@ -49,27 +51,27 @@
         </div>
         </div>
         <div class="container">
-            <h2 style="text-align: center; padding-top: 2.5%; padding-bottom: 2.5%;">WHAT WE DO</h2>
+            <h2 class='heading-2' style="padding: 2.5%">WHAT WE DO</h2>
             <div class="row">
               <div class="col">
-                <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/design_icon.png">
-                    <h4 id='flip-design' style="text-align: center;">DESIGN</h4>
+                <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/design_icon.png" style="margin-left: 40%;">
+                    <h4 id='flip-design' style="text-align: center;"><b>DESIGN</b></h4>
                     <p id='panel-design' style="text-align: center">
                         Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.<br><br>
                         Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
                     </p>
               </div>
               <div class="col">
-                <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/dev_icon.png">
-                    <h4 id='flip-dev' style="text-align: center;">DEVELOPMENT</h4>
+                <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/dev_icon.png" style="margin-left: 40%;">
+                    <h4 id='flip-dev' style="text-align: center;"><b>DEVELOPMENT</b></h4>
                     <p id='panel-dev' style="text-align: center">
                         All engineers are fluent in the latest enterprise, mobile and web development technologies.<br><br>
                         They collaborate with your team to write and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
                     </p>
               </div>
               <div class="col">
-                <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/product_icon.png">
-                    <h4 id='flip-product'style="text-align: center;">PRODUCT MANAGEMENT</h4>
+                <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/services_icons/product_icon.png" style="margin-left: 40%;">
+                    <h4 id='flip-product'style="text-align: center;"><b>PRODUCT MANAGEMENT</b></h4>
                     <p id="panel-product" style="text-align: center">
                         Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.<br><br>
                         The iterative process allows for changes as business requirements evolve. 
@@ -79,37 +81,41 @@
           </div>
         </div>
         <div class="container-fluid">
-            <h2 style="text-align: center;">PORTFOLIO</h2>
-            <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;"> <!--class="parent-portfolio"-->
-                <div class="child-image-1" style="margin-bottom: 2%; margin-right: 2%; order: 1;">
+            <h2 class="heading-2">PORTFOLIO</h2>
+            <div class='portfolio-parent'> <!--class="parent-portfolio"-->
+                <div class="child-image-1" class="snake" style="margin-bottom: 2%; margin-right: 2%;">
+                    <div class="overlay">
+                        <span class="title">Project 1</span>
+                        <span class="description">A project on design principles based on rigid colors</span>
+                    </div>
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work4.jpg">
                 </div>
-                <div class="child-image-2" style="margin-right: 2%; order: 2;">
+                <div class="child-image-2" style="margin-right: 2%;">
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work3.jpg">
                 </div>
-                <div class="child-image-3" style="margin-right: 2%; order: 3;">
+                <div class="child-image-3" style="margin-right: 2%;">
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work2.jpg">
                 </div>
-                <div class="child-image-4" style="margin-right: 2%; order: 4;">
+                <div class="child-image-4" style="margin-right: 2%;">
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work1.jpg">
                 </div>
-                <div class="child-image-5" style="margin-right: 2%; order: 5; margin-top: 2%;">
+                <div class="child-image-5" style="margin-right: 2%;">
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work5.jpg">
                 </div>
-                <div class="child-image-6" style="margin-right: 2%; order: 6; margin-top: 2%;">
+                <div class="child-image-6" style="margin-right: 2%;">
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work6.jpg">
                 </div>
-                <div class="child-image-7" style="margin-right: 2%; margin-top: 2%; margin-bottom: 2%; order: 7;">
+                <div class="child-image-7" style="margin-right: 2%; margin-top: 2%; margin-bottom: 2%;">
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work7.jpg">
                 </div>
-                <div class="child-image-8;" style="margin-right: 2%; margin-top: 2%; margin-bottom: 2%; order: 8;">
+                <div class="child-image-8;" style="margin-right: 2%; margin-top: 2%; margin-bottom: 2%;">
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work8.jpg">
                 </div>
             </div>
         </div>
         <div class="container-fluid">
             <div style="background-repeat: none; background-image: url('https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg');">
-                <h4 style="text-align: center; padding: 2%; color: white;">CONTACT US</h4>
+                <h4 class='heading-2' style="padding: 2%; color: white;">CONTACT US</h4>
                 <div class="row g-3; justify-content: center;">
                     <div class="col">
                       <input type="text" class="form-control" placeholder="Name" aria-label="Name">
@@ -117,17 +123,18 @@
                     <div class="col">
                       <input type="text" class="form-control" placeholder="Email" aria-label="Email">
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3" style="background-color: transparent;">
                         <label for="Email-Text-Area" class="form-label"></label>
-                        <input type="text" class="form-control" placeholder="Your message here...">
-                        <textarea class="form-control" id="Textarea1" rows="10"></textarea>
+                        <textarea class="form-control" id="Textarea1" rows="4" placeholder="Your message here..."></textarea>
+                        <button class="btn btn-primary" type="submit">Send Email</button>
+
                       </div>
                 </div>
             <!--<form>'will be added here with labels for name, email and message. mail chimp API will be used to track user responses</>-->
             </div>
         </div>
         <div>
-            <div style="display: flex; flex-direction: row; justify-content: center; flex-wrap: wrap; align-items: center; padding: 2%;">
+            <div class='social-icons'>
                 <div>
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/social_icons/twitter.png">
                 </div>
@@ -162,6 +169,7 @@
             <h6 style="text-align: center;">2019</h6> 
         </div>  
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>   
+        <script src="/JAVASCRIPT/snake.js"></script>
         <script src="/JAVASCRIPT/index.js" async defer></script>
     </body>
 </html>
