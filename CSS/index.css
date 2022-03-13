@@ -57,17 +57,3 @@ body {
     padding: 50px;
 }
 
-.overlay{
-    position: absolute;
-    opacity: 0.9;
-    text-align: center;
-    padding-top: 60px;
-    background-color: #ffffff;
-  }
-  
-  .overlay .title{
-    font-size: 15px;
-    font-weight: bold;
-    display: block;
-    width: 100%;
-  }
