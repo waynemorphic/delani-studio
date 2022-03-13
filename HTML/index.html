@@ -83,32 +83,32 @@
         <div class="container-fluid">
             <h2 class="heading-2">PORTFOLIO</h2>
             <div class='portfolio-parent'> <!--class="parent-portfolio"-->
-                <div class="child-image-1" class="snake" style="margin-bottom: 2%; margin-right: 2%;">
-                    <div class="overlay">
+                <div class="child-image-1" style="margin-bottom: 2%; margin-right: 2%;">
+                    <div class="image-1-descr">
                         <span class="title">Project 1</span>
                         <span class="description">A project on design principles based on rigid colors</span>
                     </div>
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work4.jpg">
                 </div>
-                <div class="child-image-2" style="margin-right: 2%;">
+                <div class="child-image-2" style="margin-right: 2%; margin-bottom: 2%;">
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work3.jpg">
                 </div>
-                <div class="child-image-3" style="margin-right: 2%;">
+                <div class="child-image-3" style="margin-right: 2%; margin-bottom: 2%;">
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work2.jpg">
                 </div>
-                <div class="child-image-4" style="margin-right: 2%;">
+                <div class="child-image-4" style="margin-right: 2%; margin-bottom: 2%;">
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work1.jpg">
                 </div>
-                <div class="child-image-5" style="margin-right: 2%;">
+                <div class="child-image-5" style="margin-right: 2%; margin-bottom: 2%;">
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work5.jpg">
                 </div>
-                <div class="child-image-6" style="margin-right: 2%;">
+                <div class="child-image-6" style="margin-right: 2%; margin-bottom: 2%;">
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work6.jpg">
                 </div>
-                <div class="child-image-7" style="margin-right: 2%; margin-top: 2%; margin-bottom: 2%;">
+                <div class="child-image-7" style="margin-right: 2%; margin-bottom: 2%;">
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work7.jpg">
                 </div>
-                <div class="child-image-8;" style="margin-right: 2%; margin-top: 2%; margin-bottom: 2%;">
+                <div class="child-image-8;" style="margin-right: 2%; margin-bottom: 2%;">
                     <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work8.jpg">
                 </div>
             </div>
@@ -116,20 +116,21 @@
         <div class="container-fluid">
             <div style="background-repeat: none; background-image: url('https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg');">
                 <h4 class='heading-2' style="padding: 2%; color: white;">CONTACT US</h4>
-                <div class="row g-3; justify-content: center;">
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                <form>
+                    <div class="row g-3; justify-content: center;">
+                        <div class="col">
+                            <input type="text" class="form-control" id='userName' name="name" placeholder="Name" aria-label="Name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" id="userMail" name="email" placeholder="Email" aria-label="Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Email-Text-Area" class="form-label"></label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your message here..."></textarea>
+                            <button type="submit" class="btn btn-primary" id="clickbtn" onclick="submitForm(event)">Send Email</button>
+                        </div>
                     </div>
-                    <div class="col">
-                      <input type="text" class="form-control" placeholder="Email" aria-label="Email">
-                    </div>
-                    <div class="mb-3" style="background-color: transparent;">
-                        <label for="Email-Text-Area" class="form-label"></label>
-                        <textarea class="form-control" id="Textarea1" rows="4" placeholder="Your message here..."></textarea>
-                        <button class="btn btn-primary" type="submit">Send Email</button>
-
-                      </div>
-                </div>
+                </form>
             <!--<form>'will be added here with labels for name, email and message. mail chimp API will be used to track user responses</>-->
             </div>
         </div>

@@ -53,6 +53,9 @@ body {
     padding: 2%;
 }
 
+.image-1-descr {
+    display: none;
+}
 #panel {
     padding: 50px;
 }
