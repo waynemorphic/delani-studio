@@ -53,10 +53,175 @@ body {
     padding: 2%;
 }
 
-.image-1-descr {
+.image-description-1 {
+    position: relative;
+    text-align: center;
+
+}
+
+.image-description-1:hover {
+    opacity: 0.6;
+}
+
+.image-title-1 {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: none;
+    border: 5px solid white;
+    border-radius: 7px;
 }
-#panel {
-    padding: 50px;
+
+.image-description-2 {
+    position: relative;
+    text-align: center;
+
 }
+
+.image-description-2:hover {
+    opacity: 0.6;
+}
+
+.image-title-2 {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    border: 5px solid white;
+    border-radius: 7px;
+}
+.image-description-3 {
+    position: relative;
+    text-align: center;
+
+}
+
+.image-description-3:hover {
+    opacity: 0.6;
+}
+
+.image-title-3 {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    border: 5px solid white;
+    border-radius: 7px;
+}
+.image-description-4 {
+    position: relative;
+    text-align: center;
+
+}
+
+.image-description-4:hover {
+    opacity: 0.6;
+}
+
+.image-title-4 {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    border: 5px solid white;
+    border-radius: 7px;
+}
+.image-description-5 {
+    position: relative;
+    text-align: center;
+
+}
+
+.image-description-5:hover {
+    opacity: 0.6;
+}
+
+.image-title-5 {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    border: 5px solid white;
+    border-radius: 7px;
+}
+.image-description-6 {
+    position: relative;
+    text-align: center;
+
+}
+
+.image-description-6:hover {
+    opacity: 0.6;
+}
+
+.image-title-6 {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    border: 5px solid white;
+    border-radius: 7px;
+}
+.image-description-7 {
+    position: relative;
+    text-align: center;
+
+}
+
+.image-description-7:hover {
+    opacity: 0.6;
+}
+
+.image-title-7 {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    border: 5px solid white;
+    border-radius: 7px;
+}
+.image-description-8 {
+    position: relative;
+    text-align: center;
+
+}
+
+.image-description-8:hover {
+    opacity: 0.6;
+}
+
+.image-title-8 {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    border: 5px solid white;
+    border-radius: 7px;
+}
+.portfolio-image-1 {
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+.portfolio-image-2 {
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
 

@@ -29,6 +29,37 @@ $(document).ready(function(){
     })
 })
 
+//hoverable images
+$(".image-description-1").hover(function(){
+    $('.image-title-1').toggle();
+});
+
+$(".image-description-2").hover(function(){
+    $('.image-title-2').toggle();
+});
+
+$(".image-description-3").hover(function(){
+    $('.image-title-3').toggle();
+});
+$(".image-description-4").hover(function(){
+    $('.image-title-4').toggle();
+});
+
+$(".image-description-5").hover(function(){
+    $('.image-title-5').toggle();
+});
+
+$(".image-description-6").hover(function(){
+    $('.image-title-6').toggle();
+});
+
+$(".image-description-7").hover(function(){
+    $('.image-title-7').toggle();
+});
+
+$(".image-description-8").hover(function(){
+    $('.image-title-8').toggle();
+});
 
 //Business Logic
 
@@ -46,7 +77,6 @@ function submitForm(event){
     let userId = document.querySelector('#userName').value;
     let emailAddress = document.querySelector('#userMail').value;
     
-    ;
 
     if (mailText == '' && emailAddress == '') {
         alert ('Enter a valid email address and type a message in the text box')
