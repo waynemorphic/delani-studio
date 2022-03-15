@@ -30,12 +30,12 @@ $(document).ready(function(){
 })
 
 //hoverable images
-function portfolioImagesHover(){
-    $(".image-title").hide();
-    $(".image-description").hover(function(){
-        $(this).find("image-title").toggle();
-    });
-}
+// function portfolioImagesHover(){
+//     $(".image-title").hide();
+//     $(".image-description").hover(function(){
+//         $(this).find("image-title").toggle();
+//     });
+// }
 
 $(".image-description-1").hover(function(){
     $('.image-title-1').toggle();
